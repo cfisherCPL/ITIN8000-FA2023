@@ -1,0 +1,32 @@
+{% load static %}
+<!doctype html>
+<html>
+    <head>
+        <title>Additional Resources</title>
+    </head>
+    
+    <body>
+        <h1>Here are a list of additional resources:</h1>
+        <ul>
+            <li>w3.org</li>
+            <li>Library of Congress</li>
+            <li>w3schools.com</li>
+        </ul>
+       
+        <h3>While you're reading: here's Al Gore!</h3>
+        <img src='https://upload.wikimedia.org/wikipedia/commons/0/0f/Algoretestifying.jpeg'>
+        <h4>But why is Al Gore here?</h4>
+        <pre>
+            The joke usually goes that "Al Gore invented the internet", 
+            or he gets ripped on for claiming to do so.
+            The overall history is long-winded, and we'll use the "pre" tag
+            to insert a preformatted paragraph here instead of typing it all out.
+        </pre>
+        <h2>Click below to read more about Al Gore.</h2>
+        <a href="https://origins.osu.edu/history-news/gore-did-help-invent-internet?language_content_entity=en">Home</a>
+
+        <h2>Click to go back to Home page:</h2>
+        <a href="{% url 'home' %}">Home</a>
+      
+    </body>
+</html>

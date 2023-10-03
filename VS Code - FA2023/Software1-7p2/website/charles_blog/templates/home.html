@@ -6,10 +6,12 @@
         </head>
 
    <body>
-        <p>My name is Charles.</p>
-        <p>This is my bio for 7.1p2</p>
+        <h1>My name is Charles.</h1>
+        <h2>This is my bio for 7.1p2</h2>
+        <hr>
+        <img src="{% static 'images/finnTheHuman.gif' %}" alt="Finn the Human Boy">
         <p>Charles Fisher (he/him) is the Supervisor of the Creative Production Lab at the University of Nebraska Omaha's Dr. C.C. and Mabel L. Criss Library. He administers the equipment, staff, and programming of the Creative Production Lab as it relates to games, interactive media development, and open access technologies. He holds BAs in Theatre and Studio Art, and is currently pursuing an MS in IT Innovation from the University of Nebraska at Omaha. His professional and research interests focus on the use of game jams, game design, and video game development for nonprofits and educational communities. Outside of UNO, Charles operates as the COO and Creative Director for RHO Interactive, an app and project development firm for non-profits and education.</p>
 		<h2>Click to go to the cat page!</h2>
-        <a href="{% url 'cat_pics' %}">CATS</a>
+        <a href="{% url 'cats' %}">Some good kitties, right here.</a>
     </body>
 </html>

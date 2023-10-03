@@ -1,0 +1,66 @@
+{% load static %} 
+<!doctype html>
+<html>
+    <head>
+        <title>Cat Pics</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {
+    box-sizing: border-box;
+    }
+
+    /* Create three equal columns that floats next to each other */
+    .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 500px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    </style>
+    </head>
+   
+    <body>
+        <h1>Here is a list of my cat's names:</h1>
+        <ul>
+            <li>Archer</li>
+            <li>Tony</li>
+            <li>Destro</li>
+        </ul>
+        <h2>Below are some pictures of cats.</h2>
+        <p>While beautiful, these are NOT actually pictures of my cats.</p>
+        <p>These are merely internet cats, shown using links to other sites.</p>
+
+        <div class="row">
+            <div class="column left" style="background-color:#FFB695;">
+                <h2>Archer</h2>
+                <img src="https://www.rover.com/blog/wp-content/uploads/2020/04/fluffy-orange-cat-pixabay.jpg" alt="Orange Maine Coon" style="width:auto;height:256px;" class="center">
+                <p>Orange Maine Coon</p>
+            </div>
+            <div class="column middle" style="background-color:#96D1CD;">
+                <h2>Tony</h2>
+                <img src="https://www.petfinder.com/sites/default/files/images/content/PF_DomesticShortHairCat_482x260.jpg" alt="Gray Tabby" style="width:auto;height:256px"class="center">
+                <p>Gray Tabby</p>
+            </div>
+            <div class="column right" style="background-color:#74C3E1;">
+                <h2>Destro</h2>
+                <img src="https://image.petmd.com/files/styles/863x625/public/2023-05/russian-blue.jpg" alt="Russian Blue" style="width:auto;height:256px;" class="center">
+                <p>Russian Blue</p>
+            </div>
+        </div>
+
+
+        <hr>
+        <h2> Click to go back to Home page </h2>
+
+        <a href="{% url 'home' %}">Go back to the weirdo's bio...</a>
+
+    </body>
+</html>
