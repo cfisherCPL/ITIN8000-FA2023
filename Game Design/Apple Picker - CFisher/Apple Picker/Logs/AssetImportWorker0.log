@@ -217,3 +217,165 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 623.321336 seconds.
+  path: Assets/Scenes/New Material.mat
+  artifactKey: Guid(ed3a1a249a8c14b849875629df376ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Material.mat using Guid(ed3a1a249a8c14b849875629df376ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5712ea82363d25e3a91f26b44233d47') in 0.745701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.586430 seconds.
+  path: Assets/Scenes/Mat_Leaves.mat
+  artifactKey: Guid(ed3a1a249a8c14b849875629df376ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mat_Leaves.mat using Guid(ed3a1a249a8c14b849875629df376ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5409dd169dfb4f7d70b6732abcf4bd3b') in 0.007638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 59.312844 seconds.
+  path: Assets/Scenes/Mat_Wood.mat
+  artifactKey: Guid(69f29bf8530e94ac2ae12cdbb4f35476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mat_Wood.mat using Guid(69f29bf8530e94ac2ae12cdbb4f35476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc115a98a378026b875568e1c345ace') in 0.011750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 57.022592 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(3a309b30feca34d7bb6de01a5ecbe51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(3a309b30feca34d7bb6de01a5ecbe51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e1f2ffdce03d0e3c6e67a54dd80d9c') in 0.000748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.758769 seconds.
+  path: Assets/Prefabs/AppleTree.prefab
+  artifactKey: Guid(8b74d9b95d4134a6894e2c9178c582a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AppleTree.prefab using Guid(8b74d9b95d4134a6894e2c9178c582a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7a238da98d6decc58c109602e8c136') in 0.024845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 153.834262 seconds.
+  path: Assets/Prefabs/AppleTree.prefab
+  artifactKey: Guid(8b74d9b95d4134a6894e2c9178c582a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AppleTree.prefab using Guid(8b74d9b95d4134a6894e2c9178c582a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a8837557a4677ad87710cb27d7a106') in 0.013745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 54.928188 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(57ec5d8c9059c4fe7b87be09449b5e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(57ec5d8c9059c4fe7b87be09449b5e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24c8208c6d94896b64ba4daf344af87') in 0.000725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.674825 seconds.
+  path: Assets/Scenes/Mat_Leaves.mat
+  artifactKey: Guid(ed3a1a249a8c14b849875629df376ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mat_Leaves.mat using Guid(ed3a1a249a8c14b849875629df376ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6125eab5d4a7b2c33d3090da8ec06cf7') in 0.010442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 21.136811 seconds.
+  path: Assets/Prefabs/AppleTree.prefab
+  artifactKey: Guid(8b74d9b95d4134a6894e2c9178c582a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AppleTree.prefab using Guid(8b74d9b95d4134a6894e2c9178c582a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29517902ed21a02bed889dfb95681ee2') in 0.011284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 1.068164 seconds.
+  path: Assets/Materials/Mat_Leaves.mat
+  artifactKey: Guid(ed3a1a249a8c14b849875629df376ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mat_Leaves.mat using Guid(ed3a1a249a8c14b849875629df376ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4681995786c0305ec18388a2a28610') in 0.009230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 15.662241 seconds.
+  path: Assets/Materials/Mat_Apple.mat
+  artifactKey: Guid(3b24d27e8332b40b2bbef492010108e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mat_Apple.mat using Guid(3b24d27e8332b40b2bbef492010108e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b094e68fcdb6fa616f2120f37ae898be') in 0.011944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.569 seconds
+Refreshing native plugins compatible for Editor in 2.06 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.820 seconds
+Domain Reload Profiling: 2389ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (272ms)
+		LoadAssemblies (346ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1821ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (583ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (462ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3577.
+Memory consumption went from 123.9 MB to 123.9 MB.
+Total: 3.821457 ms (FindLiveObjects: 0.294425 ms CreateObjectMapping: 0.199254 ms MarkObjects: 3.234785 ms  DeleteObjects: 0.092162 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 82.694458 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9326e97e2461385864aa44f9e28ada') in 0.014496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
