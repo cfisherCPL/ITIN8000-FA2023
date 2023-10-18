@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{C5F87869-CCA3-FA7C-CE6B-EC211EECCB4A}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Apple.cs">
+    <Files>
+      <File FileName="Assets/Scripts/AppleTree.cs" Line="31" Column="22" />
+      <File FileName="Assets/Scripts/Apple.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Apple Picker" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Apple.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="51da63c1-7a74-4867-b36c-c4ec8fe3a4b8" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
