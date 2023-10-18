@@ -1,8 +1,11 @@
 ﻿<Properties StartupConfiguration="{C5F87869-CCA3-FA7C-CE6B-EC211EECCB4A}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Apple.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ScoreCounter.cs">
     <Files>
       <File FileName="Assets/Scripts/AppleTree.cs" Line="31" Column="22" />
-      <File FileName="Assets/Scripts/Apple.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Apple.cs" Line="17" Column="2" />
+      <File FileName="Assets/Scripts/ApplePicker.cs" Line="11" Column="25" />
+      <File FileName="Assets/Scripts/Basket.cs" Line="41" Column="5" />
+      <File FileName="Assets/Scripts/ScoreCounter.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +13,7 @@
           <Node name="Apple Picker" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Apple.cs" selected="True" />
+                <Node name="ScoreCounter.cs" selected="True" />
               </Node>
             </Node>
           </Node>
