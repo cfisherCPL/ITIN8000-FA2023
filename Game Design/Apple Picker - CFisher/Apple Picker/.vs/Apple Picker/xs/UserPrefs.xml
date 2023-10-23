@@ -1,12 +1,13 @@
 ﻿<Properties StartupConfiguration="{C5F87869-CCA3-FA7C-CE6B-EC211EECCB4A}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/HighScore.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/StartButton.cs">
     <Files>
       <File FileName="Assets/Scripts/ScoreCounter.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/AppleTree.cs" Line="31" Column="58" />
       <File FileName="Assets/Scripts/Apple.cs" Line="19" Column="32" />
       <File FileName="Assets/Scripts/ApplePicker.cs" Line="52" Column="5" />
-      <File FileName="Assets/Scripts/Basket.cs" Line="46" Column="13" />
-      <File FileName="Assets/Scripts/HighScore.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Basket.cs" Line="47" Column="62" />
+      <File FileName="Assets/Scripts/HighScore.cs" Line="59" Column="5" />
+      <File FileName="Assets/Scripts/StartButton.cs" Line="4" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,7 +15,7 @@
           <Node name="Apple Picker" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="HighScore.cs" selected="True" />
+                <Node name="StartButton.cs" selected="True" />
               </Node>
             </Node>
           </Node>
