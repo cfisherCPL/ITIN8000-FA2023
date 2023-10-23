@@ -42,8 +42,8 @@ public class Basket : MonoBehaviour
         if (collidedWith.CompareTag("Apple"))
         {                         // c
         Destroy(collidedWith);
-        // Increase the score
-        scoreCounter.score += 100;
+            // Increase the score
+            scoreCounter.score += 100;
         }
     }
 }
