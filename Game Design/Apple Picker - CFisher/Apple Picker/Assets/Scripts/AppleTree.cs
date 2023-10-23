@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
 using UnityEngine;
 
-[DebuggerDisplay("{" + nameof(GetDebuggerDisplay) + "(),nq}")]
+
 public class AppleTree : MonoBehaviour
 {
     [Header("Inscribed")]                                                  // a
@@ -31,7 +30,7 @@ public class AppleTree : MonoBehaviour
      void DropApple()
     {                                                    // b
         GameObject apple = Instantiate<GameObject>(applePrefab);        // c
-        apple.transform.position = transform.position;                    // d
+        apple.transform.position = transform.position;                  // d
         Invoke("DropApple", appleDropDelay);                            // e
     }
 
@@ -68,9 +67,4 @@ public class AppleTree : MonoBehaviour
         speed *= -1; // Change direction 
     }
 
-
-    private string GetDebuggerDisplay()
-    {
-        return ToString();
-    }
 }

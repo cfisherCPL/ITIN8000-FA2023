@@ -63,6 +63,7 @@
     <Compile Include="Assets/Scripts/Apple.cs" />
     <Compile Include="Assets/Scripts/ScoreCounter.cs" />
     <Compile Include="Assets/Scripts/AppleTree.cs" />
+    <Compile Include="Assets/Scripts/HighScore.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -354,6 +354,7 @@
 "Assets/Scripts/ApplePicker.cs"
 "Assets/Scripts/AppleTree.cs"
 "Assets/Scripts/Basket.cs"
+"Assets/Scripts/HighScore.cs"
 "Assets/Scripts/ScoreCounter.cs"
 -langversion:9.0
 
