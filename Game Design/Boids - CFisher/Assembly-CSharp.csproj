@@ -61,6 +61,7 @@
     <Compile Include="Assets/Scripts/LookAtAttractor.cs" />
     <Compile Include="Assets/Scripts/Spawner.cs" />
     <Compile Include="Assets/Scripts/Boid.cs" />
+    <Compile Include="Assets/Scripts/Neighborhood.cs" />
     <Compile Include="Assets/Scripts/Attractor.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -353,6 +353,7 @@
 "Assets/Scripts/Attractor.cs"
 "Assets/Scripts/Boid.cs"
 "Assets/Scripts/LookAtAttractor.cs"
+"Assets/Scripts/Neighborhood.cs"
 "Assets/Scripts/Spawner.cs"
 -langversion:9.0
 
