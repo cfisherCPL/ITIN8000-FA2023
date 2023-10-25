@@ -474,3 +474,43 @@ Received Import Request.
 Start importing Assets/Scenes/_Scene_0.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07eb904412a82d9ce6021d1c022e260e') in 0.000577 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 449.254219 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(d0df3fe25a27a4d05ad7d14ee0f202c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(d0df3fe25a27a4d05ad7d14ee0f202c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de9e6e8c836e053e47192593f342800') in 0.000937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.735720 seconds.
+  path: Assets/Materials/Mat_Boid_Trail.mat
+  artifactKey: Guid(db8f4c86b9e814d469928c62778eb696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mat_Boid_Trail.mat using Guid(db8f4c86b9e814d469928c62778eb696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59600162e3688ffcde600d4e2eee0101') in 0.480918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 296.155311 seconds.
+  path: Assets/PreFabs
+  artifactKey: Guid(2e5d2fd42b4e44493a2540fd5b1af9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PreFabs using Guid(2e5d2fd42b4e44493a2540fd5b1af9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6baa0683c180b90c5a0546fff333af6') in 0.000847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.480609 seconds.
+  path: Assets/PreFabs/Boid.prefab
+  artifactKey: Guid(c10104656b1204aebb998534218abe74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PreFabs/Boid.prefab using Guid(c10104656b1204aebb998534218abe74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a05a7978b73ad209196d99e26f61f9d') in 0.139116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 203.379128 seconds.
+  path: Assets/Materials/Mat_Boid_Trail.mat
+  artifactKey: Guid(db8f4c86b9e814d469928c62778eb696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mat_Boid_Trail.mat using Guid(db8f4c86b9e814d469928c62778eb696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a971f3fd20b663d025078e71caf4fa0d') in 0.331142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
