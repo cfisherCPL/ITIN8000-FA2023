@@ -196,3 +196,11 @@ Received Import Request.
 Start importing Assets/Materials using Guid(49f3adf3078a84b93a95f1b9baac60c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bdf0dd9b18240ee617bdef5be8983fa') in 0.002350 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7362.720989 seconds.
+  path: Assets/Materials/Mat_Projectile.mat
+  artifactKey: Guid(81bbbac7513804cca974e1c4d70e99a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Mat_Projectile.mat using Guid(81bbbac7513804cca974e1c4d70e99a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd85ccbb7b383cdd427b4fb4a13ddef61') in 0.154416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1

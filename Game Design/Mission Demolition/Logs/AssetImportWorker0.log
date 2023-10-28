@@ -276,3 +276,35 @@ Received Import Request.
 Start importing Assets/PreFabs/Projectile.prefab using Guid(f8a1222dbfb004202992c202173cecd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f198c39be686a0246b14980d624e9be4') in 0.025258 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 2271.400030 seconds.
+  path: Assets/Materials/Mat_Ground.mat
+  artifactKey: Guid(5a874991c9ff94217bbf438f6299633f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Mat_Ground.mat using Guid(5a874991c9ff94217bbf438f6299633f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e9c145632581b55c52d1a440981ca149') in 0.128930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Materials/Mat_Slingshot.mat
+  artifactKey: Guid(6f42ffb6a62ef405cbcb9765fb14f35e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Mat_Slingshot.mat using Guid(6f42ffb6a62ef405cbcb9765fb14f35e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a1715bfb2e393bdede518005c72b6e39') in 0.006060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Scenes/_Scene_0.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/_Scene_0.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8155699ae02040397ee2c564d740a38e') in 0.002968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/PreFabs/Projectile.prefab
+  artifactKey: Guid(f8a1222dbfb004202992c202173cecd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PreFabs/Projectile.prefab using Guid(f8a1222dbfb004202992c202173cecd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '049576fe08857bf3448b06dc1f6b59b8') in 0.024103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
