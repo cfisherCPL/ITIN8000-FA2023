@@ -352,6 +352,7 @@
 -analyzer:"/Applications/2022.3.10f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/__Scripts/CloudCover.cs"
 "Assets/__Scripts/FollowCam.cs"
+"Assets/__Scripts/RigidBodySleep.cs"
 "Assets/__Scripts/Slingshot.cs"
 -langversion:9.0
 

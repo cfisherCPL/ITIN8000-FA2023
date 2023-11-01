@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/__Scripts/FollowCam.cs" />
+    <Compile Include="Assets/__Scripts/RigidBodySleep.cs" />
     <Compile Include="Assets/__Scripts/Slingshot.cs" />
     <Compile Include="Assets/__Scripts/CloudCover.cs" />
   </ItemGroup>
