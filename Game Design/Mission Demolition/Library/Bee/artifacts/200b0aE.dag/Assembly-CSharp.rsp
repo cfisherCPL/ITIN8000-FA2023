@@ -350,8 +350,9 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"/Applications/2022.3.10f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/2022.3.10f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/Scripts/FollowCam.cs"
-"Assets/Scripts/Slingshot.cs"
+"Assets/__Scripts/CloudCover.cs"
+"Assets/__Scripts/FollowCam.cs"
+"Assets/__Scripts/Slingshot.cs"
 -langversion:9.0
 
 /deterministic

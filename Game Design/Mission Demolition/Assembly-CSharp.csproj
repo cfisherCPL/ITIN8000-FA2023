@@ -58,8 +58,9 @@
     <Analyzer Include="/Applications/2022.3.10f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/Slingshot.cs" />
-    <Compile Include="Assets/Scripts/FollowCam.cs" />
+    <Compile Include="Assets/__Scripts/FollowCam.cs" />
+    <Compile Include="Assets/__Scripts/Slingshot.cs" />
+    <Compile Include="Assets/__Scripts/CloudCover.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
