@@ -332,7 +332,9 @@
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"/Applications/2022.3.10f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/2022.3.10f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/__Scripts/BoundsCheck.cs"
 "Assets/__Scripts/Hero.cs"
+"Assets/__Scripts/Shield.cs"
 -langversion:9.0
 
 /deterministic
