@@ -39,8 +39,9 @@ public class Card : MonoBehaviour
 
         def = JsonParseDeck.GET_CARD_DEF(rank);
 
-    // Build the card from Sprites                                        // a
-    
+        // Build the card from Sprites                                        // a
+        AddDecorators();
+
     }
 
     /// <summary>
@@ -50,5 +51,59 @@ public class Card : MonoBehaviour
     public virtual void SetLocalPos(Vector3 v)
     {                              // b
         transform.localPosition = v;
+    }
+
+    // These private variables that will be reused several times                    // c
+    private Sprite _tSprite = null;
+    private GameObject _tGO = null;
+    private SpriteRenderer _tSRend = null;
+    // An Euler rotation of 180° around the Z-axis will flip sprites upside down
+    private Quaternion _flipRot = Quaternion.Euler(0, 0, 180);
+
+    /// <summary>
+    /// Adds the decorators to the top-left and bottom-right of each card.
+    ///  Decorators are the suit and rank in the corners of each card.
+    /// </summary>
+    private void AddDecorators()
+    {
+        // Add Decorators
+        foreach (JsonPip pip in JsonParseDeck.DECORATORS)
+        {                         // e
+            if (pip.type == "suit")
+            {
+                // Instantiate a Sprite GameObject
+                _tGO = Instantiate<GameObject>(Deck.SPRITE_PREFAB, transform);       // f
+                // Get the SpriteRenderer Component
+                _tSRend = _tGO.GetComponent<SpriteRenderer>();
+                // Get the suit Sprite from the CardSpritesSO.SUIT static field
+                _tSRend.sprite = CardSpritesSO.SUITS[suit];
+            }
+            else
+            {
+                _tGO = Instantiate<GameObject>(Deck.SPRITE_PREFAB, transform);       // f
+                _tSRend = _tGO.GetComponent<SpriteRenderer>();
+                // Get the rank Sprite from the CardSpritesSO.RANK static field
+                _tSRend.sprite = CardSpritesSO.RANKS[rank];
+                // Set the color of the rank to match the suit
+                _tSRend.color = color;
+            }
+
+
+            // Make the Decorator Sprites render above the Card
+            _tSRend.sortingOrder = 1;                                               // g
+                                                                                    // Set the localPosition based on the location from DeckXML
+            _tGO.transform.localPosition = pip.loc;
+            // Flip the decorator if needed
+            if (pip.flip) _tGO.transform.rotation = _flipRot;                       // h
+                                                                                    // Set the scale to keep decorators from being too big
+            if (pip.scale != 1)
+            {
+                _tGO.transform.localScale = Vector3.one * pip.scale;
+            }
+            // Name this GameObject so it’s easy to find in the Hierarchy
+            _tGO.name = pip.type;
+            // Add this decorator GameObject to the List card.decoGOs
+            decoGOs.Add(_tGO);
+        }
     }
 }
