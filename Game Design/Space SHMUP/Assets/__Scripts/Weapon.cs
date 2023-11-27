@@ -55,12 +55,12 @@ public class Weapon : MonoBehaviour
     [Header("Dynamic")]                                                        // a
     [SerializeField]                                                           // a
     [Tooltip("Setting this manually while playing does not work properly.")]   // a
-    private eWeaponType _type = eWeaponType.none;
-    public WeaponDefinition def;
-    public float nextShotTime; // Time the Weapon will fire next
+    private eWeaponType         _type = eWeaponType.none;
+    public WeaponDefinition     def;
+    public float                nextShotTime; // Time the Weapon will fire next
 
-    private GameObject weaponModel;
-    private Transform shotPointTrans;
+    private GameObject          weaponModel;
+    private Transform           shotPointTrans;
 
     void Start()
     {
