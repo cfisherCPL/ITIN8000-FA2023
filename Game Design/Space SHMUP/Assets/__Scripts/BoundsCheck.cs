@@ -48,7 +48,7 @@ public class BoundsCheck : MonoBehaviour
 
         Vector3 pos = transform.position;
         screenLocs = eScreenLocs.onScreen;
-        // isOnScreen = true;
+       
 
         // Restrict the X position to camWidth
         if (pos.x > camWidth + checkRadius)
@@ -69,7 +69,7 @@ public class BoundsCheck : MonoBehaviour
         if (pos.y > camHeight + checkRadius)
         {
             pos.y = camHeight + checkRadius;
-            screenLocs |= eScreenLocs.offLeft;
+            screenLocs |= eScreenLocs.offUp;
             //isOnScreen = false;
         }
         if (pos.y < -camHeight - checkRadius)
