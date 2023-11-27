@@ -100,7 +100,7 @@ public class PowerUp : MonoBehaviour
         cubeMat.color = def.powerUpColor;  // Set the color of PowerCube
         //letter.color = def.color;        // We could colorize the letter too
         letter.text = def.letter;          // Set the letter that is shown
-        type = wt;                         // Finally actually set the type
+        _type = wt;                         // Finally actually set the type
     }
 
     /// <summary>
