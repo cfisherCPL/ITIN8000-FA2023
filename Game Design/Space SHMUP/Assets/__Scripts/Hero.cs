@@ -39,8 +39,8 @@ public class Hero : MonoBehaviour
 
         
         // Reset the weapons to start _Hero with 1 blaster
-        //ClearWeapons();
-        //weapons[0].SetType(eWeaponType.blaster);
+        ClearWeapons();
+        weapons[0].SetType(eWeaponType.blaster);
     }
 
     // Update is called once per frame

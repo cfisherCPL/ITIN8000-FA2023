@@ -34,12 +34,14 @@ public class Main : MonoBehaviour
         // Invoke SpawnEnemy() once (in 2 seconds, based on default values)
         Invoke(nameof(SpawnEnemy), 1f / enemySpawnPerSecond);
 
+        
         // A generic Dictionary with eWeaponType as the key
         WEAP_DICT = new Dictionary<eWeaponType, WeaponDefinition>();          // a
         foreach (WeaponDefinition def in weaponDefinitions)
         {               // b
             WEAP_DICT[def.type] = def;
         }
+        
     }
 
     public void SpawnEnemy()

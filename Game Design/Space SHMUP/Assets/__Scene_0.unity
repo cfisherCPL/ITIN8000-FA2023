@@ -252,6 +252,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 747152022}
     m_Modifications:
+    - target: {fileID: 2370966949944049805, guid: b131e795220f843ffb13e3a1f78e2844, type: 3}
+      propertyPath: _type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2370966949944049805, guid: b131e795220f843ffb13e3a1f78e2844, type: 3}
+      propertyPath: def.type
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3170342048294966961, guid: b131e795220f843ffb13e3a1f78e2844, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -780,28 +788,28 @@ MonoBehaviour:
   prefabPowerUp: {fileID: 6165901271479102843, guid: 81093a81bc45043d599fd32fa2fe5bfe, type: 3}
   weaponDefinitions:
   - type: 1
-    letter: 
-    powerUpColor: {r: 0, g: 0, b: 0, a: 0}
-    weaponModelPrefab: {fileID: 0}
-    projectilePrefab: {fileID: 0}
-    projectileColor: {r: 0, g: 0, b: 0, a: 0}
-    damageOnHit: 0
+    letter: B
+    powerUpColor: {r: 1, g: 1, b: 1, a: 1}
+    weaponModelPrefab: {fileID: 919132149155446097, guid: 0522e2d6add5631469273543744ebf7f, type: 3}
+    projectilePrefab: {fileID: 4729263408498645253, guid: 5ff8e57765dcc42e6bd90ac69a4acb10, type: 3}
+    projectileColor: {r: 1, g: 1, b: 1, a: 1}
+    damageOnHit: 1
     damagePerSec: 0
-    delayBetweenShots: 0
-    velocity: 0
+    delayBetweenShots: 0.2
+    velocity: 50
   - type: 2
-    letter: 
-    powerUpColor: {r: 0, g: 0, b: 0, a: 0}
-    weaponModelPrefab: {fileID: 0}
-    projectilePrefab: {fileID: 0}
-    projectileColor: {r: 0, g: 0, b: 0, a: 0}
-    damageOnHit: 0
+    letter: S
+    powerUpColor: {r: 0, g: 1, b: 1, a: 1}
+    weaponModelPrefab: {fileID: 919132149155446097, guid: 8b6e5debbe11f9241ade9814e3d16d70, type: 3}
+    projectilePrefab: {fileID: 4729263408498645253, guid: 5ff8e57765dcc42e6bd90ac69a4acb10, type: 3}
+    projectileColor: {r: 0, g: 1, b: 1, a: 1}
+    damageOnHit: 1
     damagePerSec: 0
-    delayBetweenShots: 0
-    velocity: 0
+    delayBetweenShots: 0.4
+    velocity: 50
   - type: 6
-    letter: 
-    powerUpColor: {r: 0, g: 0, b: 0, a: 0}
+    letter: O
+    powerUpColor: {r: 0, g: 1, b: 0, a: 0}
     weaponModelPrefab: {fileID: 0}
     projectilePrefab: {fileID: 0}
     projectileColor: {r: 0, g: 0, b: 0, a: 0}
