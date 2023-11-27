@@ -17,7 +17,8 @@ public class Main : MonoBehaviour
     public float gameRestartDelay = 2;
     public GameObject prefabPowerUp;
     public WeaponDefinition[] weaponDefinitions;
-    public eWeaponType[] powerUpFrequency = new eWeaponType[] {        // b
+    public eWeaponType[] powerUpFrequency = new eWeaponType[]
+    {        // b
         eWeaponType.blaster, eWeaponType.blaster,
         eWeaponType.spread,  eWeaponType.shield };
 

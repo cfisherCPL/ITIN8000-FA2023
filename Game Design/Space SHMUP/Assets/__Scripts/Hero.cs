@@ -37,9 +37,10 @@ public class Hero : MonoBehaviour
         }
         //fireEvent += TempFire;
 
+        
         // Reset the weapons to start _Hero with 1 blaster
-        ClearWeapons();
-        weapons[0].SetType(eWeaponType.blaster);
+        //ClearWeapons();
+        //weapons[0].SetType(eWeaponType.blaster);
     }
 
     // Update is called once per frame
@@ -110,19 +111,19 @@ public class Hero : MonoBehaviour
         switch (pUp.type)
         {
             case eWeaponType.shield:                                              // a 
-            shieldLevel++;
-            break;
+                shieldLevel++;
+                break;
 
             default:                                                             // b
-            if (pUp.type == weapons[0].type)
-            { // If it is the same type     // c
-                Weapon weap = GetEmptyWeaponSlot();
-                if (weap != null)
-                {
-                    // Set it to pUp.type
-                    weap.SetType(pUp.type);
+                if (pUp.type == weapons[0].type)
+                { // If it is the same type     // c
+                    Weapon weap = GetEmptyWeaponSlot();
+                    if (weap != null)
+                    {
+                        // Set it to pUp.type
+                        weap.SetType(pUp.type);
+                    }
                 }
-            }
             else
             { // If this is a different weapon type                   // d
                 ClearWeapons();
